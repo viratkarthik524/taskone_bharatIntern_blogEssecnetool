@@ -1,0 +1,137 @@
+/* ContentManagementTool.css */
+
+.content-management-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.textarea,
+.input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #28bd2f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blog-details {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.details-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.details-content {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.details-image {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.video-link {
+  color: #007bff;
+  text-decoration: none;
+}
+/* ContentManagementTool.css */
+
+/* ... Your existing styles ... */
+
+.content-management-container {
+  /* ... Your existing styles ... */
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #337ab7; /* Updated title color */
+}
+
+/* ... Your existing styles ... */
+
+.submit-button {
+  /* ... Your existing styles ... */
+  background-color: #ff6600; /* Updated submit button color */
+  transition: background-color 0.3s ease; /* Add transition for smoother color change */
+}
+
+.submit-button:hover {
+  background-color: #e65100; /* Darker color on hover */
+}
+
+/* ... Your existing styles ... */
+
+.details-title {
+  /* ... Your existing styles ... */
+  color: #337ab7; /* Updated details title color */
+}
+
+/* Animation for details-title */
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.details-title:hover {
+  animation: scaleUp 0.3s ease; /* Apply animation on hover */
+  transform-origin: center;
+}
+
+/* ... Your existing styles ... */
+
+.video-link {
+  /* ... Your existing styles ... */
+  color: #e6005c; /* Updated video link color */
+}
+
+.video-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
